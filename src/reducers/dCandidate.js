@@ -4,7 +4,7 @@ const intialState = {
 }
 
 export const dCandidate = (state=intialState,action) => {
-    switch (action.payload) {//34.08 not sure
+    switch (action.type) {//34.08 not sure
         case ACTION_TYPES.FETCH_ALL: 
             return{
                 ...state,

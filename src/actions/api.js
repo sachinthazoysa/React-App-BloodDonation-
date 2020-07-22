@@ -3,7 +3,7 @@ import axios from "axios";
 const baseUrl = "http://localhost:55891/api/"
 
 export default{
-    dCandidate(url = baseUrl + 'dCandidate/') {
+    dCandidate(url = baseUrl + 'DCandidate/') {
         return {
             fetchAll : () => axios.get(url),
             fetchById: id =>axios.get(url + id),
